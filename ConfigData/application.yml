@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-secondary:8012/eureka/,http://eureka-primary:8011/eureka/
+      defaultZone: http://eureka-secondary:8882/eureka/,http://eureka-primary:8881/eureka/
 
 ---
 spring:
@@ -26,4 +26,9 @@ words: razonable, permeable, sospechoso, ordinario, improbable
 ---
 spring:
   profiles: noun
+words: barco, libro, voto, asiento, mochila, partición
+
+---
+spring:
+  profiles: profile1
 words: barco, libro, voto, asiento, mochila, partición
